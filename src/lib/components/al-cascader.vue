@@ -9,6 +9,7 @@
             :size="size"
             :placeholder="placeholder"
             :render-format="renderFormat"
+            :change-on-select="freeSelect"
             @on-change="handleChange"
         />
     </div>
@@ -51,7 +52,11 @@ export default {
         },
         size: String,
         placeholder: String,
-        renderFormat: Function
+        renderFormat: Function,
+        freeSelect: {
+          type: Boolean,
+          default: false
+        }
     },
     data () {
         return {

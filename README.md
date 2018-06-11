@@ -113,7 +113,7 @@ size|选择器尺寸，该属性同iview组件cascader的size属性，可选值�
 placeholder|选择器未选择时显示的占位字符|String|'请选择']
 disabled|是否禁用选择器|Boolean|false
 render-format|选择后展示的函数，用于自定义显示格式|Function|``label => label.join(' / ')``
-
+freeSelect|点选每级菜单选项值都会发生变化,这个为定制属性，iview-area不包含|Boolean|false
 事件  |  说明  |  返回值
 :-------: | -------  |  :-------:
 on-change|选择完成后的回调，返回值此时已选的数据数组|data

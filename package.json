@@ -1,6 +1,6 @@
 {
   "name": "iview-area-new",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "An area-linkage-component bases on Vue and iView-UI components",
   "author": "Lison,oyv1cent",
   "license": "MIT",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iview/iview-area.git"
+    "url": "git+https://github.com/oyv1cent/iview-area-new.git"
   },
   "bugs": {
-    "url": "https://github.com/iview/iview-area/issues"
+    "url": "https://github.com/oyv1cent/iview-area-new/issues"
   },
-  "homepage": "https://github.com/iview/iview-area#readme",
+  "homepage": "https://github.com/oyv1cent/iview-area-new#readme",
   "dependencies": {
     "iview": "^2.6.0",
     "vue": "^2.5.2"
